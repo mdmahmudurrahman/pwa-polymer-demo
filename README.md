@@ -106,3 +106,29 @@ application. Each new demand-loaded fragment should be added to the list of
 `fragments` in the included `polymer.json` file. This will ensure those
 components and their dependencies are added to the list of pre-cached components
 and will be included in the `bundled` build.
+
+############################################################
+### Components used here
+  a. paper-input
+  b. paper-button
+  c. local-storage
+  d. vaadin grid and date picker
+
+```
+  bower install --save paper-input
+  bower install --save paper-button
+  bower install --save vaadin-date-picker
+  bower install --save vaadin-grid
+
+```
+
+### Import the following in the my-view1.html
+
+```
+    <link rel="import" href="../bower_components/paper-input/paper-input.html">
+    <link rel="import" href="../bower_components/paper-button/paper-button.html">
+    <link rel="import" href="../bower_components/vaadin-grid/vaadin-grid.html">
+    <link rel="import" href="../bower_components/vaadin-date-picker/vaadin-date-picker.html">
+
+```
+
